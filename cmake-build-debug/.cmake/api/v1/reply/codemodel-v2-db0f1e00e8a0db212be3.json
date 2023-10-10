@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Practica1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Practica1-Debug-212e4b3aed93ddf9a475.json",
+					"jsonFile" : "target-Practica1-Debug-3ab6c6899ccfde76d75a.json",
 					"name" : "Practica1",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/oriol/CLionProjects/Practica1/cmake-build-debug",
-		"source" : "C:/Users/oriol/CLionProjects/Practica1"
+		"build" : "C:/Users/oriol/CLionProjects/Practica1/ProgramacioPrac1/cmake-build-debug",
+		"source" : "C:/Users/oriol/CLionProjects/Practica1/ProgramacioPrac1"
 	},
 	"version" : 
 	{

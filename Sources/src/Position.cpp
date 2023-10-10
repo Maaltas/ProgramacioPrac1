@@ -1,4 +1,4 @@
-# include "C:\Users\oriol\CLionProjects\Practica1\Headers\include\Position.h"
+# include "C:\Users\oriol\CLionProjects\Practica1\ProgramacioPrac1\Headers\include\Position.h"
 
 
 Position(){

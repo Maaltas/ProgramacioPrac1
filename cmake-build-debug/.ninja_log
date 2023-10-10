@@ -1,8 +1,6 @@
 # ninja log v5
-4	444	7185727078714584	CMakeFiles/Practica1.dir/main.cpp.obj	67bb53839ac6d3ff
 446	572	7185727079968665	Practica1.exe	3b1f5e5c057d8c4a
-8	246	7185759445425027	build.ninja	7f0e52a6b558d807
+1	160	7186445780805980	build.ninja	7f0e52a6b558d807
 13	115	7185757635832894	CMakeFiles/Practica1.dir/Sources/src/Snake.cpp.obj	bf4ff46e15bd3317
 9	116	7185757635832894	CMakeFiles/Practica1.dir/Sources/src/Taulell.cpp.obj	6a7ea3964994a27c
 19	121	7185757635948476	CMakeFiles/Practica1.dir/Sources/src/Position.cpp.obj	9d3740205c6669cc
-1	160	7185759445425027	build.ninja	7f0e52a6b558d807
