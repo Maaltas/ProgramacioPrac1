@@ -1,11 +1,13 @@
-#include "C:\Users\oriol\CLionProjects\Practica1\Headers\include\MyEnum.h"
+#include "MyEnum.h"
+#include "Position.h"
+
 
 string MyEnum::toName( eDirection dir)
 {
     return nameDir[dir];
 }
 
-string MyEnum::toSymbol( eDirection dir)
+[[maybe_unused]] string MyEnum::toSymbol( eDirection dir)
 {
     return symbolDir[dir];
 }
@@ -30,3 +32,4 @@ int* MyEnum::movement(MyEnum::eDirection dir) {
     pos[1] = moveDir[1][dir];
     return pos;
 }
+

@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.26)
-project(Practica1)
+project(ProgramacioPrac1)
 
 set(CMAKE_CXX_STANDARD 17)
 
 include_directories(Headers/include)
 
-add_executable(Practica1
+add_executable(ProgramacioPrac1
         Sources/main.cpp
         Sources/src/MyEnum.cpp
         Sources/src/Position.cpp

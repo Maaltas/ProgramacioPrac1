@@ -1,18 +1,25 @@
 #include <iostream>
 #include <string>
-using namespace std;
+#include "MyEnum.h"
 
-#ifndef PRACTICA1_POSTION_H
-#define PRACTICA1_POSTION_H
+#ifndef POSITION_H
+#define POSITION_H
 
-namespace Position{
-    int row,col;
-    void visualitza();
-    void visualitza(MyEnum::eDirection dir);
-    void putData(int row,int col);
 
-    int getCol();
-    int getRow();
-}
+class Position {
+    private:
+        int row;
+        int col;
+    public:
+        Position();
+        Position(int i, int j);
+        void putData(int row, int col);
+        int getRow();
+        int getCol();
+        void visualitza();
+        void visualitza(MyEnum::eDirection dir);
+        bool operator == (Position *altre) const;
+        bool operator != (Position *altre) const;
+};
 
 #endif

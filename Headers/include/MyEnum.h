@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-#ifndef PRACTICA1_MYENUM_H
-#define PRACTICA1_MYENUM_H
+#ifndef MYENUM_H
+#define MYENUM_H
 
 
 namespace MyEnum
@@ -17,7 +17,7 @@ namespace MyEnum
 
     string toName( eDirection dir);
 
-    string toSymbol( eDirection dir);
+    [[maybe_unused]] string toSymbol( eDirection dir);
 
     eDirection giveDirection();
 
@@ -26,4 +26,4 @@ namespace MyEnum
 };
 
 
-#endif // PRACTICA1_MYENUM_H
+#endif
