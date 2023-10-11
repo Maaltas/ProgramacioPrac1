@@ -17,20 +17,26 @@ Snake::Snake(int nBonificacions) {
     currentDir = MyEnum::Rigth;
 }
 bool Snake::visualitza(int row, int col) {
+    Position *temp = new Position(row,col);
     for (int i = 0; i < currentLength; i++) {
-        if (arrayPosition[i] == Position(row, col)) {
+        if (arrayPosition[i] == temp) {
             arrayPosition[i].visualitza();
+            delete temp;
             return true;
         }
     }
+    delete temp;
     return false;
 }
 bool Snake::contains(int row, int col) {
+    Position *temp = new Position(row,col);
     for (int i = 0; i < currentLength; i++) {
-        if (arrayPosition[i] == Position(row, col)) {
+        if (arrayPosition[i] == temp) {
+            delete temp;
             return true;
         }
     }
+    delete temp;
     return false;
 }
 
