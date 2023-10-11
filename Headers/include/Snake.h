@@ -1,9 +1,9 @@
 #include <iostream>
-#include <string>
 #include "MyEnum.h"
 #include "Position.h"
 
-
+#ifndef SNAKE_H
+#define SNAKE_H
 
 class Snake{
     private:
@@ -11,14 +11,14 @@ class Snake{
         int currentLength;
         MyEnum::eDirection currentDir;
     public:
-        Snake(int nBonificacions);
-        Snake();
+        ~Snake();
+        explicit Snake(int nBonificacions);
         bool visualitza(int row, int col);
         bool contains(int row, int col);
         bool isDead();
-        int movimentSerp(MyEnum::eDirection newdir, int nRow, int nCol);
+        int* movimentSerp(MyEnum::eDirection newdir, int nRow, int nCol);
         void doesntEat();
 };
 
-
+#endif
 
