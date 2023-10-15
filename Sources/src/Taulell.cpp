@@ -4,7 +4,7 @@
 
 #include <cstdlib>
 #include <ctime>
-namespace std;
+using namespace std;
 
 
 Taulell::Taulell(){
@@ -82,8 +82,8 @@ void Taulell::visualitzar(){
 }
 
 bool Taulell::movimentSerp(MyEnum::eDirection dir){
-    int* newPos = Snake.movimentSerp(dir, files, columnes);
-    bool esViva = !Snake.isDead();
+    int* newPos = Snake::movimentSerp(dir, files, columnes);
+    bool esViva = !Snake::isDead();
 
     if(esViva && contenidor[newPos[0]][newPos[1]] == 1){
         nBonificacions++;
