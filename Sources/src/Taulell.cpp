@@ -53,7 +53,7 @@ void Taulell::inici(int quantes){
             if (random == 0) {
                 contenidor[i][j] = 1;
                 bonificacionsCreades++;
-                cout << "Activem la posició: " << i << ", " << j;
+                cout << "Activem la posició: " << i << ", " << j << "\n";
             }
         }
     }

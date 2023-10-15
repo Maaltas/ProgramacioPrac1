@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug"
+			"value" : "c:/Users/blaze/Documents/GitHub/ProgramacioPrac1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/blaze/Documents/GitHub/ProgramacioPrac1/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1"
+			"value" : "C:/Users/blaze/Documents/GitHub/ProgramacioPrac1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -727,7 +727,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Practica1"
+			"value" : "C:/Program Files (x86)/ProgramacioPrac1"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/PROGRA~1/JetBrains/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe"
+			"value" : "C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1326,42 +1326,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Practica1_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug"
-		},
-		{
-			"name" : "Practica1_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Practica1_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1"
-		},
-		{
 			"name" : "ProgramacioPrac1_BINARY_DIR",
 			"properties" : 
 			[
@@ -1371,7 +1335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug"
+			"value" : "C:/Users/blaze/Documents/GitHub/ProgramacioPrac1/cmake-build-debug"
 		},
 		{
 			"name" : "ProgramacioPrac1_IS_TOP_LEVEL",
@@ -1395,7 +1359,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1"
+			"value" : "C:/Users/blaze/Documents/GitHub/ProgramacioPrac1"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
