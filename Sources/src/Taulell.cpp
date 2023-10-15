@@ -1,13 +1,11 @@
-<<<<<<< Updated upstream
-#include "Taulell.h"
-=======
+
 #include "Taulell.h"
 #include "Snake.h"
 #include "Position.h"
 
 #include <cstdlib>
 #include <ctime>
-namespace using std;
+using namespace std;
 
 
 Taulell::Taulell(){
@@ -71,31 +69,32 @@ void Taulell::visualitzar(){
     for (int i = 0; i < files; i++) {
         cout << i << "| ";
         for (int j = 0; j < columnes; j++) {
-            if(Snake::contains(i, j)){
-                Position::visualitza;
+            if(aSnake->contains(i,j)){
+                Position p(i,j);
             } else if (contenidor[i][j] == 1){
                 cout << "& ";
-            } else if(Snake::visualitza(i, j)){
-                cout << MyEnum::toSymbol(currentDir); // ??
             } else {
                 cout << "  ";
             }
         }
+        cout << endl;
     }
 }
 
 bool Taulell::movimentSerp(MyEnum::eDirection dir){
-    int* newPos = Snake.movimentSerp(dir, files, columnes);
-    bool esViva = !Snake.isDead();
-
+    int* newPos = aSnake->movimentSerp(dir, files, columnes);
+    bool esViva = !aSnake->isDead();
     if(esViva && contenidor[newPos[0]][newPos[1]] == 1){
         nBonificacions++;
         // allargar la serp?
     }
+    delete[] newPos;
+    return esViva;
 }
 
 void Taulell::finalitzar() {
-    Taulell::~Taulell();
+    delete aSnake;
+    aSnake = new Snake(nBonificacions);
 
     for (int i = 0; i < files; i++) {
         for (int j = 0; j < columnes; j++) {
@@ -103,6 +102,6 @@ void Taulell::finalitzar() {
         }
     }
     nBonificacions = 0;
-
 }
->>>>>>> Stashed changes
+
+

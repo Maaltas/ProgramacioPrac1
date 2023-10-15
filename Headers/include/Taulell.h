@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 #ifndef TAULELL_H
 #define TAULELL_H
 
@@ -26,4 +25,4 @@ public:
 };
 
 #endif
->>>>>>> Stashed changes
+
