@@ -29,7 +29,7 @@ bool tornarJugar(Taulell *tau) {
 int main() {
     Taulell *tau = new Taulell();
     cout << "Indica quantes bonificacions vols:\n";
-    tau->inici(demanarValor(1, 10));
+    tau->inici(demanarValor(1, 8));
     bool jugar = true;
     while (jugar) {
         tau->visualitzar();
