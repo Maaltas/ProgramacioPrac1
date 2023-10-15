@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Practica1.exe"
+			"path" : "ProgramacioPrac1.exe"
 		},
 		{
-			"path" : "Practica1.pdb"
+			"path" : "ProgramacioPrac1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -74,7 +74,7 @@
 			]
 		}
 	],
-	"id" : "Practica1::@6890427a1f51a3e7e1df",
+	"id" : "ProgramacioPrac1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,8 +94,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Practica1",
-	"nameOnDisk" : "Practica1.exe",
+	"name" : "ProgramacioPrac1",
+	"nameOnDisk" : "ProgramacioPrac1.exe",
 	"paths" : 
 	{
 		"build" : ".",

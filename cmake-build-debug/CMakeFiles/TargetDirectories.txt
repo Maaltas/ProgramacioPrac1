@@ -1,3 +1,3 @@
-C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug/CMakeFiles/Practica1.dir
+C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug/CMakeFiles/ProgramacioPrac1.dir
 C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

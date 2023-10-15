@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Practica1",
+					"name" : "ProgramacioPrac1",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Practica1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Practica1-Debug-a4fba92cdba0643bd881.json",
-					"name" : "Practica1",
+					"id" : "ProgramacioPrac1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProgramacioPrac1-Debug-d3c28738a746a10d676f.json",
+					"name" : "ProgramacioPrac1",
 					"projectIndex" : 0
 				}
 			]

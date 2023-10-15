@@ -947,7 +947,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Practica1"
+			"value" : "ProgramacioPrac1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1351,6 +1351,42 @@
 		},
 		{
 			"name" : "Practica1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1"
+		},
+		{
+			"name" : "ProgramacioPrac1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgramacioPrac1/cmake-build-debug"
+		},
+		{
+			"name" : "ProgramacioPrac1_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "ProgramacioPrac1_SOURCE_DIR",
 			"properties" : 
 			[
 				{

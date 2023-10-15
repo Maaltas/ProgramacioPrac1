@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Practica1
+# Target rules for targets named ProgramacioPrac1
 
 # Build rule for target.
-Practica1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Practica1
-.PHONY : Practica1
+ProgramacioPrac1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProgramacioPrac1
+.PHONY : ProgramacioPrac1
 
 # fast build rule for target.
-Practica1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/build
-.PHONY : Practica1/fast
+ProgramacioPrac1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/build
+.PHONY : ProgramacioPrac1/fast
 
 Sources/main.obj: Sources/main.cpp.obj
 .PHONY : Sources/main.obj
 
 # target to build an object file
 Sources/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/main.cpp.obj
 .PHONY : Sources/main.cpp.obj
 
 Sources/main.i: Sources/main.cpp.i
@@ -141,7 +141,7 @@ Sources/main.i: Sources/main.cpp.i
 
 # target to preprocess a source file
 Sources/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/main.cpp.i
 .PHONY : Sources/main.cpp.i
 
 Sources/main.s: Sources/main.cpp.s
@@ -149,7 +149,7 @@ Sources/main.s: Sources/main.cpp.s
 
 # target to generate assembly for a file
 Sources/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/main.cpp.s
 .PHONY : Sources/main.cpp.s
 
 Sources/src/MyEnum.obj: Sources/src/MyEnum.cpp.obj
@@ -157,7 +157,7 @@ Sources/src/MyEnum.obj: Sources/src/MyEnum.cpp.obj
 
 # target to build an object file
 Sources/src/MyEnum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/MyEnum.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/MyEnum.cpp.obj
 .PHONY : Sources/src/MyEnum.cpp.obj
 
 Sources/src/MyEnum.i: Sources/src/MyEnum.cpp.i
@@ -165,7 +165,7 @@ Sources/src/MyEnum.i: Sources/src/MyEnum.cpp.i
 
 # target to preprocess a source file
 Sources/src/MyEnum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/MyEnum.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/MyEnum.cpp.i
 .PHONY : Sources/src/MyEnum.cpp.i
 
 Sources/src/MyEnum.s: Sources/src/MyEnum.cpp.s
@@ -173,7 +173,7 @@ Sources/src/MyEnum.s: Sources/src/MyEnum.cpp.s
 
 # target to generate assembly for a file
 Sources/src/MyEnum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/MyEnum.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/MyEnum.cpp.s
 .PHONY : Sources/src/MyEnum.cpp.s
 
 Sources/src/Position.obj: Sources/src/Position.cpp.obj
@@ -181,7 +181,7 @@ Sources/src/Position.obj: Sources/src/Position.cpp.obj
 
 # target to build an object file
 Sources/src/Position.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Position.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Position.cpp.obj
 .PHONY : Sources/src/Position.cpp.obj
 
 Sources/src/Position.i: Sources/src/Position.cpp.i
@@ -189,7 +189,7 @@ Sources/src/Position.i: Sources/src/Position.cpp.i
 
 # target to preprocess a source file
 Sources/src/Position.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Position.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Position.cpp.i
 .PHONY : Sources/src/Position.cpp.i
 
 Sources/src/Position.s: Sources/src/Position.cpp.s
@@ -197,7 +197,7 @@ Sources/src/Position.s: Sources/src/Position.cpp.s
 
 # target to generate assembly for a file
 Sources/src/Position.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Position.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Position.cpp.s
 .PHONY : Sources/src/Position.cpp.s
 
 Sources/src/Snake.obj: Sources/src/Snake.cpp.obj
@@ -205,7 +205,7 @@ Sources/src/Snake.obj: Sources/src/Snake.cpp.obj
 
 # target to build an object file
 Sources/src/Snake.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Snake.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Snake.cpp.obj
 .PHONY : Sources/src/Snake.cpp.obj
 
 Sources/src/Snake.i: Sources/src/Snake.cpp.i
@@ -213,7 +213,7 @@ Sources/src/Snake.i: Sources/src/Snake.cpp.i
 
 # target to preprocess a source file
 Sources/src/Snake.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Snake.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Snake.cpp.i
 .PHONY : Sources/src/Snake.cpp.i
 
 Sources/src/Snake.s: Sources/src/Snake.cpp.s
@@ -221,7 +221,7 @@ Sources/src/Snake.s: Sources/src/Snake.cpp.s
 
 # target to generate assembly for a file
 Sources/src/Snake.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Snake.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Snake.cpp.s
 .PHONY : Sources/src/Snake.cpp.s
 
 Sources/src/Taulell.obj: Sources/src/Taulell.cpp.obj
@@ -229,7 +229,7 @@ Sources/src/Taulell.obj: Sources/src/Taulell.cpp.obj
 
 # target to build an object file
 Sources/src/Taulell.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Taulell.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Taulell.cpp.obj
 .PHONY : Sources/src/Taulell.cpp.obj
 
 Sources/src/Taulell.i: Sources/src/Taulell.cpp.i
@@ -237,7 +237,7 @@ Sources/src/Taulell.i: Sources/src/Taulell.cpp.i
 
 # target to preprocess a source file
 Sources/src/Taulell.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Taulell.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Taulell.cpp.i
 .PHONY : Sources/src/Taulell.cpp.i
 
 Sources/src/Taulell.s: Sources/src/Taulell.cpp.s
@@ -245,7 +245,7 @@ Sources/src/Taulell.s: Sources/src/Taulell.cpp.s
 
 # target to generate assembly for a file
 Sources/src/Taulell.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practica1.dir\build.make CMakeFiles/Practica1.dir/Sources/src/Taulell.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProgramacioPrac1.dir\build.make CMakeFiles/ProgramacioPrac1.dir/Sources/src/Taulell.cpp.s
 .PHONY : Sources/src/Taulell.cpp.s
 
 # Help Target
@@ -256,7 +256,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Practica1
+	@echo ... ProgramacioPrac1
 	@echo ... Sources/main.obj
 	@echo ... Sources/main.i
 	@echo ... Sources/main.s
