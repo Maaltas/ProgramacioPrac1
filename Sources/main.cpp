@@ -20,7 +20,7 @@ bool tornarJugar(Taulell *tau) {
     } while (resposta != 'S' && resposta != 'N');
     if (resposta == 'S') {
         tau->finalitzar();
-        tau->inici(demanarValor(1, 10));
+        tau->inici(demanarValor(1, 8));
         return true;
     } else {
         return false;
@@ -28,6 +28,7 @@ bool tornarJugar(Taulell *tau) {
 }
 int main() {
     Taulell *tau = new Taulell();
+    cout << "Indica quantes bonificacions vols:\n";
     tau->inici(demanarValor(1, 10));
     bool jugar = true;
     while (jugar) {

@@ -53,6 +53,7 @@ void Taulell::inici(int quantes){
             if (random == 0) {
                 contenidor[i][j] = 1;
                 bonificacionsCreades++;
+                cout << "Activem la posició: " << i << ", " << j;
             }
         }
     }
@@ -84,10 +85,12 @@ void Taulell::visualitzar(){
 bool Taulell::movimentSerp(MyEnum::eDirection dir){
     int* newPos = aSnake->movimentSerp(dir, files, columnes);
     bool esViva = !aSnake->isDead();
+
     if(esViva && contenidor[newPos[0]][newPos[1]] == 1){
-        nBonificacions++;
-        // allargar la serp?
+        nBonificacions--;
+        contenidor[newPos[0]][newPos[1]] == 0;
     }
+    
     delete[] newPos;
     return esViva;
 }
