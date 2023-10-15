@@ -90,7 +90,7 @@ bool Taulell::movimentSerp(MyEnum::eDirection dir){
         nBonificacions--;
         contenidor[newPos[0]][newPos[1]] == 0;
     }
-    
+
     delete[] newPos;
     return esViva;
 }
