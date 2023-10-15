@@ -52,7 +52,7 @@ int* Snake::movimentSerp(MyEnum::eDirection newdir, int nRow, int nCol) {
     } else if (currentLength == 2) {
         arrayPosition[0].putData(newPos[0], newPos[1]);
     }
-    delete[] newPos;
+    return newPos;
 }
 void Snake::doesntEat() {
     if (currentLength > 3) {
