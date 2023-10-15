@@ -73,7 +73,7 @@ void Taulell::visualitzar(){
             } else if (contenidor[i][j] == 1){
                 cout << "& ";
             } else if(Snake::visualitza(i, j)){
-                cout << MyEnum::toSymbol(currentDir); // no sé com es mostra on i com està el cap
+                cout << MyEnum::toSymbol(currentDir); // ??
             } else {
                 cout << "  ";
             }
