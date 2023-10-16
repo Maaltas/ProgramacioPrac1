@@ -42,30 +42,14 @@
         delete temp;
         return false;
     }
-    void Snake::movimentAvall() {
-        for (int i = currentLength - 1; i > 0; i--) {
-            arrayPosition[i] = arrayPosition[i - 1];
-        }
-    }
 
-    void Snake::movimentAdalt() {
-        for (int i = 0; i < currentLength - 1; i++) {
-            arrayPosition[i] = arrayPosition[i + 1];
-        }
-    }
     int* Snake::movimentSerp(MyEnum::eDirection newdir, int nRow, int nCol) {
         currentDir = newdir;
         int *newPos = MyEnum::movement(currentDir);
         if (newPos[0] >= 0 && newPos[0] < nRow && newPos[1] >= 0 && newPos[1] < nCol) {
             if (!contains(newPos[0], newPos[1])) {
-                if (currentDir == MyEnum::Down || currentDir == MyEnum::Rigth) {
-                    movimentAvall();
-                    arrayPosition[0].putData(newPos[0], newPos[1]);
-                }
-                else if (currentDir == MyEnum::Up || currentDir == MyEnum::Left) {
-                    movimentAdalt();
-                    arrayPosition[currentLength - 1].putData(newPos[0], newPos[1]);
-                }
+                canviPosicio();
+                arrayPosition[currentLength - 1].putData(newPos[0], newPos[1]);
                 currentLength++;
             }
         } else {
@@ -73,18 +57,11 @@
             else if (newPos[0] >= nRow) newPos[0] = 0;
             else if (newPos[1] < 0) newPos[1] = nCol - 1;
             else if (newPos[1] >= nCol) newPos[1] = 0;
-            if (currentDir == MyEnum::Down || currentDir == MyEnum::Rigth) {
-                movimentAvall();
-                arrayPosition[0].putData(newPos[0], newPos[1]);
-            } else if (currentDir == MyEnum::Up || currentDir == MyEnum::Left) {
-                movimentAdalt();
-                arrayPosition[currentLength - 1].putData(newPos[0], newPos[1]);
-            }
-            currentLength++;
+            canviPosicio();
+            arrayPosition[currentLength - 1].putData(newPos[0], newPos[1]);
         }
         return newPos;
     }
-
 
     void Snake::doesntEat() {
         if (currentLength > 3) {
@@ -95,6 +72,14 @@
     bool Snake::isDead() {
         return currentLength <= 0;
     }
+
+    void Snake::canviPosicio() {
+        for (int i = 0; i < currentLength - 1; i++) {
+            arrayPosition[i] = arrayPosition[i + 1];
+        }
+    }
+
+
 
 
 

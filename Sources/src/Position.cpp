@@ -26,6 +26,7 @@ int Position::getCol() {
 }
 
 void Position::visualitza() {
+
     cout << " *";
 }
 

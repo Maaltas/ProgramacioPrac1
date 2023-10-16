@@ -10,8 +10,7 @@ class Snake{
         Position * arrayPosition;
         int currentLength;
         MyEnum::eDirection currentDir;
-        void movimentAvall();
-        void movimentAdalt();
+        void canviPosicio();
     public:
         ~Snake();
         explicit Snake(int nBonificacions);
