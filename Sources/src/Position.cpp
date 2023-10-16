@@ -26,7 +26,7 @@ int Position::getCol() {
 }
 
 void Position::visualitza() {
-    cout << "*";
+    cout << " *";
 }
 
 void Position::visualitza(MyEnum::eDirection dir) {
