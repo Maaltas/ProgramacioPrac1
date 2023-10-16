@@ -17,8 +17,10 @@ Snake::Snake(int nBonificacions) {
     currentDir = MyEnum::Rigth;
 }
 bool Snake::visualitza(int row, int col) {
-    Position* temp =new Position(row,col);
-    for (int i = 0; i < currentLength; i++) {
+    Position* temp = new Position(row,col);
+    // if(arrayPosition[0] == temp)
+        // arrayPosition[0].visualitza(dir);
+    for (int i = 0 /*i = 1*/; i < currentLength; i++) {
         if (arrayPosition[i]==temp) {
             arrayPosition[i].visualitza();
             delete temp;

@@ -91,7 +91,6 @@ bool Taulell::movimentSerp(MyEnum::eDirection dir){
         contenidor[newPos[0]][newPos[1]] = 0;
     }
 
-    delete[] newPos;
     return esViva;
 }
 
