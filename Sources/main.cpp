@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Taulell.h"
-
 using namespace std;
 
 int demanarValor(int min, int max) {

@@ -10,7 +10,7 @@ using namespace std;
 
 Taulell::Taulell(){
     nBonificacions = 0;
-    aSnake = nullptr;
+    aSnake = new Snake(nBonificacions);
 
     for (int i = 0; i < files; i++){
         for (int j = 0; j < columnes; j++){
@@ -88,7 +88,7 @@ bool Taulell::movimentSerp(MyEnum::eDirection dir){
 
     if(esViva && contenidor[newPos[0]][newPos[1]] == 1){
         nBonificacions--;
-        contenidor[newPos[0]][newPos[1]] == 0;
+        contenidor[newPos[0]][newPos[1]] = 0;
     }
 
     delete[] newPos;
