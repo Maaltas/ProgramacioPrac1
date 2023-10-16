@@ -18,15 +18,17 @@ Snake::Snake(int nBonificacions) {
 }
 bool Snake::visualitza(int row, int col) {
     Position* temp = new Position(row,col);
-    // if(arrayPosition[0] == temp)
-        // arrayPosition[0].visualitza(dir);
-    for (int i = 0 /*i = 1*/; i < currentLength; i++) {
+    for (int i = 0; i < currentLength - 1; i++) {
         if (arrayPosition[i]==temp) {
             arrayPosition[i].visualitza();
             delete temp;
             return true;
         }
     }
+    
+    if(arrayPosition[currentLength - 1 == temp])
+        arrayPosition[currentLength - 1].visualitza(currentDir);
+    
     delete temp;
     return false;
 }
