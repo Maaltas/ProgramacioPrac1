@@ -53,7 +53,7 @@ void Taulell::inici(int quantes){
             if (random == 0) {
                 contenidor[i][j] = 1;
                 bonificacionsCreades++;
-                cout << "Activem la posició: " << j << ", " << i << "\n";
+                cout << "Activem la posició: " << i << ", " << j << "\n";
             }
         }
     }
@@ -61,19 +61,19 @@ void Taulell::inici(int quantes){
 }
 
 void Taulell::visualitzar(){
-    cout << "   ";
+    cout << "  ";
     for (int i = 0; i < columnes; i++) {
         cout << " " << i;
     }
     cout <<"\n";
 
     for (int i = 0; i < files; i++) {
-        cout << i << " |";
+        cout << i << "| ";
         for (int j = 0; j < columnes; j++) {
             if(aSnake->contains(i,j)){
-                aSnake->visualitza(i, j);
+                aSnake->visualitza(i,j);
             } else if (contenidor[i][j] == 1){
-                cout << " &";
+                cout << "& ";
             } else {
                 cout << "  ";
             }
@@ -89,6 +89,8 @@ bool Taulell::movimentSerp(MyEnum::eDirection dir){
     if(esViva && contenidor[newPos[0]][newPos[1]] == 1){
         nBonificacions--;
         contenidor[newPos[0]][newPos[1]] = 0;
+    } else {
+        aSnake->doesntEat();
     }
 
     return esViva;
