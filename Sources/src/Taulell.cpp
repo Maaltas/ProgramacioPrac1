@@ -71,7 +71,7 @@ void Taulell::visualitzar(){
         cout << i << "| ";
         for (int j = 0; j < columnes; j++) {
             if(aSnake->contains(i,j)){
-                Position p(i,j);
+                aSnake->visualitza(i,j);
             } else if (contenidor[i][j] == 1){
                 cout << "& ";
             } else {
@@ -89,6 +89,8 @@ bool Taulell::movimentSerp(MyEnum::eDirection dir){
     if(esViva && contenidor[newPos[0]][newPos[1]] == 1){
         nBonificacions--;
         contenidor[newPos[0]][newPos[1]] = 0;
+    } else {
+        aSnake->doesntEat();
     }
 
     return esViva;
