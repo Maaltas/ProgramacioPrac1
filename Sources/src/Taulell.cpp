@@ -61,9 +61,9 @@ void Taulell::inici(int quantes){
 }
 
 void Taulell::visualitzar(){
-    cout << "  ";
+    cout << "   ";
     for (int i = 0; i < columnes; i++) {
-        cout << i << " ";
+        cout << " " << i;
     }
     cout <<"\n";
 
@@ -71,7 +71,7 @@ void Taulell::visualitzar(){
         cout << i << " |";
         for (int j = 0; j < columnes; j++) {
             if(aSnake->contains(i,j)){
-                Position p(i,j);
+                aSnake->visualitza(i, j);
             } else if (contenidor[i][j] == 1){
                 cout << " &";
             } else {

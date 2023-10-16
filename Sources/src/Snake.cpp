@@ -26,7 +26,7 @@ bool Snake::visualitza(int row, int col) {
         }
     }
     
-    if(arrayPosition[currentLength - 1 == temp])
+    if(arrayPosition[currentLength - 1] == temp)
         arrayPosition[currentLength - 1].visualitza(currentDir);
     
     delete temp;
